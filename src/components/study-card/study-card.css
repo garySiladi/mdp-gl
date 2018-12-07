@@ -1,0 +1,76 @@
+.study-card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 30%;
+  background-color: var(--color-battlefield);
+  padding: 1em;
+  justify-content: space-between;
+  transition: outline 0.3s;
+  outline: var(--color-battlefield) solid 1px;
+}
+
+.study-card:hover {
+  outline-color: var(--color-tron);
+}
+
+.study-card .preview-image {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.study-card .study-card-text {
+  font-size: 0.75em;
+  margin: 1em 0;
+}
+
+.study-card-text .icon {
+  width: 1.25em;
+  height: 1.25em;
+  margin: 0 0.5em;
+  vertical-align: middle;
+}
+
+.study-card-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-right: 1px solid var(--color-overwatch);
+  border-bottom: 1px solid var(--color-overwatch);
+  border-left: 1px solid var(--color-overwatch);
+}
+
+.study-card-buttons .icon {
+  width: 0.85em;
+  height: 0.85em;
+  padding-left: 0.5em;
+}
+
+.study-card-button {
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
+  padding: 0.75em 0;
+}
+
+.study-card-button:nth-child(2) {
+  border-left: 1px solid var(--color-overwatch);
+}
+
+.study-card-button:hover {
+  background-color: var(--color-overwatch);
+}
+
+.study-card-body {
+  padding-top: 0;
+  border: 1px solid var(--color-overwatch);
+  box-sizing: border-box;
+}
+
+.study-card-body:hover {
+  background-color: var(--color-battlefield);
+}
+
+.study-card-body > .study-card-text {
+  color: var(--color-planetside);
+}

@@ -1,0 +1,81 @@
+.ReactTable {
+  border: none;
+}
+
+.ReactTable .rt-thead .rt-tr {
+  text-align: left;
+}
+
+.ReactTable .rt-tbody {
+  border-top: 3px solid var(--color-destiny);
+  border-bottom: 3px solid var(--color-destiny);
+}
+
+.ReactTable .rt-tbody .rt-tr-group {
+  max-height: 55px;
+  border-bottom: 1px solid var(--color-destiny);
+}
+
+.ReactTable .rt-tbody .rt-tr-group:last-child {
+  border-bottom: 3px solid var(--color-destiny);
+}
+
+.ReactTable .rt-tbody .rt-td {
+  padding: 1em;
+  border-right: none;
+  text-align: left;
+}
+
+.ReactTable .rt-thead .rt-th {
+  padding: 1em;
+  box-shadow: none;
+  border-right: none;
+}
+
+.study-count {
+  max-width: 15em;
+}
+
+.last-study {
+  max-width: 12em;
+}
+
+.patient-link {
+  max-width: 10em;
+}
+
+.patient-link-header {
+  pointer-events: none;
+}
+
+.rt-resizable-header-content {
+  color: var(--color-halo);
+  font-weight: bold;
+}
+
+.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover {
+  background-color: var(--color-bioshock);
+}
+
+.ReactTable .rt-thead .rt-th,
+.ReactTable .rt-thead .rt-td {
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid transparent;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc,
+.ReactTable .rt-thead .rt-td.-sort-asc,
+.ReactTable .rt-thead .rt-th.-sort-desc,
+.ReactTable .rt-thead .rt-td.-sort-desc {
+  box-shadow: none;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc,
+.ReactTable .rt-thead .rt-td.-sort-asc {
+  border-bottom-color: var(--color-tron);
+}
+
+.ReactTable .rt-thead .rt-th.-sort-desc,
+.ReactTable .rt-thead .rt-td.-sort-desc {
+  border-top-color: var(--color-tron);
+}

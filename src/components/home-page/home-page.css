@@ -1,0 +1,11 @@
+.homepage .section-header {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.homepage .section-header > *:nth-child(2) > .section-title {
+  width: 20em;
+  border-bottom-color: transparent;
+  cursor: pointer;
+  color: var(--color-planetside);
+}

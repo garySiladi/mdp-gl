@@ -1,0 +1,30 @@
+:root {
+  --search-icon-size: 1.4em;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar > input {
+  width: 20em;
+  padding: 1em 1.5em;
+  font-size: 1em;
+  border: 2px solid var(--color-overwatch);
+  border-radius: 3em;
+  background-color: transparent;
+  color: var(--color-tron);
+}
+
+.search-bar > input::placeholder {
+  color: var(--color-planetside);
+  font-style: italic;
+}
+
+.search-bar > .icon {
+  width: var(--search-icon-size);
+  height: var(--search-icon-size);
+  position: absolute;
+  right: 1.5em;
+  top: 1em;
+}

@@ -1,0 +1,11 @@
+.text-light {
+  color: var(--color-halo);
+}
+
+.text-highlight {
+  color: var(--color-tron);
+}
+
+.bold {
+  font-weight: bold;
+}

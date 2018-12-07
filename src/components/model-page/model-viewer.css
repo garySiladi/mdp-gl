@@ -1,0 +1,67 @@
+.viewer-container {
+  position: relative;
+  background-color: var(--color-battlefield);
+}
+
+.reset-button {
+  position: absolute;
+  right: 40px;
+  top: 20px;
+}
+
+.scale-info {
+  position: absolute;
+  left: 40px;
+  bottom: 20px;
+  font-size: 1.5em;
+}
+
+.ruler-wrapper {
+  position: absolute;
+  bottom: 40px;
+  font-size: 1.5em;
+  width: 300px;
+  height: 20px;
+  left: 50%;
+  margin-left: -130px;
+}
+
+.ruler-info {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -180px;
+  color: var(--color-planetside);
+}
+
+.ruler-unit {
+  width: 10px;
+  height: 8px;
+  display: inline-block;
+  margin-bottom: 6px;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--color-overwatch);
+  border-left: 1px solid var(--color-overwatch);
+}
+
+.ruler-unit:nth-child(5n+1) {
+  height: 12px;
+}
+
+.ruler-unit:last-child {
+  border-right: 1px solid var(--color-overwatch);
+}
+
+.ruler-numbers-wrapper {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  margin-left: -154px;
+}
+
+.ruler-number {
+  color: var(--color-planetside);
+  text-align: center;
+  width: 50px;
+  display: inline-block;
+}

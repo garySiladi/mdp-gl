@@ -1,0 +1,11 @@
+.back-button {
+  position: absolute;
+  top: 3em;
+  left: 5vw;
+  cursor: pointer;
+}
+
+.back-button > .icon {
+  width: 2.5em;
+  height: 2.5em;
+}

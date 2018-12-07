@@ -1,0 +1,25 @@
+:root {
+  --print-icon-size: 1.5em;
+}
+
+.patient-studies {
+  display: flex;
+  padding-top: 0.5em;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.patient-studies .label {
+  padding-right: 1em;
+}
+
+.patient-studies .study-count,
+.patient-studies .last-study-date {
+  padding-right: 3em;
+}
+
+.patient-studies .icon {
+  width: var(--print-icon-size);
+  height: var(--print-icon-size);
+}

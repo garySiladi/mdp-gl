@@ -1,0 +1,13 @@
+.section-title {
+  position: relative;
+  width: 12em;
+  color: var(--color-halo);
+  border-bottom: 3px solid var(--color-tron);
+}
+
+.section-title > span {
+  width: 100%;
+  position: absolute;
+  bottom: 1em;
+  text-align: center;
+}

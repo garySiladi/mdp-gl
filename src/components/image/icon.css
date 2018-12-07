@@ -1,0 +1,8 @@
+:root {
+  --icon-size: 1em;
+}
+
+.icon {
+  width: var(--icon-size);
+  height: var(--icon-size);
+}

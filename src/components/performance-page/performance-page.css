@@ -1,0 +1,37 @@
+.performance {
+  margin-top: 3em;
+  color: var(--color-halo);
+}
+
+.performance .section-header {
+  margin-bottom: 2.5em;
+}
+
+.performance .section-header > *:nth-child(1) > .section-title {
+  border-bottom-color: transparent;
+  cursor: pointer;
+  color: var(--color-planetside);
+}
+
+.performance .section-header > .section-title {
+  width: 20em;
+}
+
+.graph-section > div {
+  display: flex;
+  margin-bottom: 1.5em;
+  padding: 2em 3em;
+  background-color: var(--color-bioshock);
+}
+
+.graph-section > div > * {
+  flex: 1;
+}
+
+.graph-section .title {
+  font-size: 1.1em;
+}
+
+.graph-section .titled-section:first-child > .title {
+  font-size: 1.2em;
+}

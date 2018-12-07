@@ -1,0 +1,36 @@
+.analysis-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 9em;
+  margin-left: 4em;
+  text-align: left;
+}
+
+.analysis-result > * {
+  line-height: 2.5em;
+}
+
+.malign-result {
+  color: var(--color-danger);
+}
+
+.benign-result {
+  color: var(--color-tron);
+}
+
+.result-text {
+  font-size: 1.2em;
+  color: var(--color-halo);
+}
+
+.result-number {
+  font-size: 2em;
+}
+
+.result-alert {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+  margin-left: -2.5em;
+}

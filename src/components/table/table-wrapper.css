@@ -1,0 +1,46 @@
+:root {
+  --table-header-icon: 1.6em;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-header > .icon-aligner {
+  width: 15em;
+  text-align: right;
+}
+
+.table-header > .icon-aligner > .icon {
+  width: var(--table-header-icon);
+  height: var(--table-header-icon);
+  margin-top: calc(var(--table-header-icon) / 2);
+}
+
+.table-footer {
+  position: relative;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.table-footer > .pagination-info {
+  position: absolute;
+  left: 1em;
+}
+
+.table-footer > .pagination-buttons > button {
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  color: var(--color-planetside);
+  font-weight: bold;
+  padding: 0.6em;
+  padding-top: 0;
+  cursor: pointer;
+}
+
+.table-footer > .pagination-buttons > .selected-page {
+  border-bottom: 3px solid var(--color-tron);
+  color: var(--color-tron);
+}
